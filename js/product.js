@@ -23,7 +23,7 @@ window.STORE = {
      Create these in Stripe → Payment Links, then paste the URLs below. */
   checkout: {
     maxQty: 999,
-    paymentLink: "https://buy.stripe.com/cNi3cufJL4FHfEsg5jcIE02"
+    paymentLink: "https://buy.stripe.com/dRm7sK557egh1NCcT7cIE03" // TEST $1 link. REAL link: https://buy.stripe.com/cNi3cufJL4FHfEsg5jcIE02
   },
 
   /* ---------- The product ---------- */
