@@ -121,7 +121,7 @@ function addToCart(id, n) {
   n = Math.min(n, room); const l = cart.find(x => x.id === id); l ? l.qty += n : cart.push({ id, qty: n }); save(); updateBadge(); return true;
 }
 function updateBadge() { const n = totalQty(), c = $("#cartCount"), changed = c.textContent !== String(n); c.textContent = n; c.dataset.n = n; if (changed) { c.classList.remove("pop"); void c.offsetWidth; c.classList.add("pop"); } }
-function checkoutUrl() { const n = Math.min(totalQty(), maxQty); return (S.checkout.paymentLinks[n] || "").trim(); }
+function checkoutUrl() { const n = Math.min(totalQty(), maxQty); return (S.checkout.paymentLink || "").trim(); }
 function goCheckout() {
   if (!totalQty()) return;
   const url = checkoutUrl();
