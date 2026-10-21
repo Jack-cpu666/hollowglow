@@ -6,7 +6,7 @@ window.STORE = {
   brand: "Hollowglow",
   hero: { tag: "New for Halloween", headline: "Five ghosts. One string.", accent: "Zero effort." },
   tagline: "Haunted-house glow for any porch, mantel or window.",
-  siteUrl: "",                       // e.g. "https://hollowglow.onrender.com" (used for SEO tags)
+  siteUrl: "https://hollowglow.onrender.com",
   supportEmail: "",                  // shown in footer/FAQ when filled in, e.g. "hello@yourdomain.com"
   currency: "USD",
 
@@ -22,8 +22,8 @@ window.STORE = {
   /* ---------- Checkout (Stripe Payment Links). One link per quantity 1..4 ----------
      Create these in Stripe → Payment Links, then paste the URLs below. */
   checkout: {
-    maxQty: 4,
-    paymentLinks: { 1: "", 2: "", 3: "", 4: "" }
+    maxQty: 999,
+    paymentLink: "https://buy.stripe.com/cNi3cufJL4FHfEsg5jcIE02"
   },
 
   /* ---------- The product ---------- */
