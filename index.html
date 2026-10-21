@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Wizard Hat Ghost String Lights – 5 LED Halloween Ghosts | Hollowglow</title>
+<meta name="description" content="Hang 5 glowing wizard hat ghosts on one 3 m string with 30 colorful LEDs. Battery powered with a waterproof battery box. $9.99 with free 2-day US shipping.">
+<meta name="theme-color" content="#ff6a00">
+<meta property="og:type" content="product">
+<meta property="og:title" content="Wizard Hat Ghost String Lights – Hollowglow">
+<meta property="og:description" content="5 hanging LED ghosts in wizard hats on a 3 m string. Battery powered. $9.99 with free 2-day US shipping.">
+<meta property="og:image" content="images/ghosts-night.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%91%BB%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="images/ghosts-night.webp">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="ghost" viewBox="0 0 64 72"><path d="M8 66V30C8 14 18 5 32 5s24 9 24 25v36l-8-6-8 6-8-6-8 6-8-6z" fill="#fff" stroke="#140a1f" stroke-width="4" stroke-linejoin="round"/><circle cx="24" cy="30" r="4.5" fill="#140a1f"/><circle cx="40" cy="30" r="4.5" fill="#140a1f"/><ellipse cx="32" cy="46" rx="5" ry="6.5" fill="#140a1f"/></symbol>
+  <symbol id="gw" viewBox="0 0 64 104">
+    <path d="M32 3 47 38H17z" fill="#7b3ff2" stroke="#140a1f" stroke-width="3.5" stroke-linejoin="round"/>
+    <rect x="21" y="29" width="22" height="6" fill="#ff6a00" stroke="#140a1f" stroke-width="2.5"/>
+    <path d="M8 40q24-9 48 0q-24 7-48 0z" fill="#7b3ff2" stroke="#140a1f" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M13 46q0-4 19-4t19 4v46l-7.5-6-6 7-5.5-7-5.5 7-6-7-7.5 6z" fill="currentColor" stroke="#140a1f" stroke-width="3.5" stroke-linejoin="round"/>
+    <circle cx="25" cy="62" r="4" fill="#140a1f"/><circle cx="39" cy="62" r="4" fill="#140a1f"/>
+    <path d="M23 76l4-4 5 5 5-5 4 4" fill="none" stroke="#140a1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+</svg>
+
+<div class="top-tape" aria-label="Announcement"><div class="track" id="topTrack"></div></div>
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#top" aria-label="Hollowglow home"><svg aria-hidden="true"><use href="#ghost"/></svg><span>Hollow<em>glow</em></span></a>
+    <nav class="links" aria-label="Main"><a href="#love">Why you'll love it</a><a href="#how">How it works</a><a href="#action">In action</a><a href="#details">Details</a><a href="#faq">FAQ</a></nav>
+    <button class="cart-btn" id="openCart" aria-label="Open cart">Cart <span class="cart-count" id="cartCount" data-n="0">0</span></button>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hang" aria-hidden="true">
+    <span class="gh"><svg viewBox="0 0 64 104"><use href="#gw"/></svg></span>
+    <span class="gh"><svg viewBox="0 0 64 104"><use href="#gw"/></svg></span>
+    <span class="gh"><svg viewBox="0 0 64 104"><use href="#gw"/></svg></span>
+    <span class="gh"><svg viewBox="0 0 64 104"><use href="#gw"/></svg></span>
+    <span class="gh"><svg viewBox="0 0 64 104"><use href="#gw"/></svg></span>
+  </div>
+  <div class="wrap product-grid">
+    <div class="gallery" aria-label="Product photos">
+      <div class="hero-head">
+        <span class="tag o" id="heroTag"></span>
+        <p class="display" id="heroHead"></p>
+      </div>
+      <div class="stage-wrap">
+      <div class="stage" id="stage" tabindex="0" role="button" aria-label="Open photo full screen">
+        <img id="mainImg" width="800" height="800" alt="" fetchpriority="high" decoding="async">
+        <button class="arrow prev" id="prev" aria-label="Previous photo">‹</button>
+        <button class="arrow next" id="next" aria-label="Next photo">›</button>
+        <span class="hint">Tap to enlarge</span>
+      </div>
+      <div class="burst" aria-hidden="true"><svg id="burstSvg" viewBox="0 0 100 100"></svg><b id="burstPrice"></b></div>
+      <span class="tag w ship-sticker" id="shipSticker"></span>
+      </div>
+      <div class="thumbs" id="thumbs"></div>
+      <p class="photo-note" id="photoNote"></p>
+    </div>
+
+    <div class="buy" id="buy">
+      <span class="tag p">Halloween lighting</span>
+      <h1 id="title"></h1>
+      <p class="sub" id="subtitle"></p>
+      <div class="price-row"><span class="price" id="price"></span><span class="compare" id="compare" hidden></span><span class="save" id="save" hidden></span><span class="freeship" id="freeship" hidden>Free shipping</span></div>
+      <span class="stock" id="stock"></span>
+      <p class="desc" id="short"></p>
+      <div class="field" id="variantField" hidden><span class="lbl">Style</span><div class="chips" id="variants" role="group" aria-label="Style"></div></div>
+      <div class="field"><span class="lbl" id="qtyLbl">Quantity</span>
+        <div class="qty" role="group" aria-labelledby="qtyLbl"><button id="qMinus" aria-label="Decrease quantity">−</button><output id="qVal" aria-live="polite">1</output><button id="qPlus" aria-label="Increase quantity">+</button></div>
+      </div>
+      <div class="cta" id="cta">
+        <button class="btn btn-primary" id="addBtn">Add to cart · <span id="addPrice"></span></button>
+        <button class="btn btn-dark" id="buyBtn">Buy it now</button>
+      </div>
+      <div class="ship-card"><strong id="shipHead"></strong><span id="shipEst"></span><br><span id="shipNote"></span></div>
+      <div class="trust">
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="#140a1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><span><b>Secure checkout</b>Payments handled by Stripe</span></div>
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="#140a1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg><span><b>30-day help</b>Damaged or not as described? We'll fix it</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="tapes" aria-hidden="true"><div class="tape a"><div class="track" id="tapeA"></div></div><div class="tape b"><div class="track" id="tapeB"></div></div></div>
+
+<section class="block" id="love"><div class="wrap">
+  <div class="sec-head reveal"><span class="tag">Why you'll love it</span><h2>Spooky glow, <mark>zero fuss</mark></h2><p>Everything you need for a haunted scene comes on a single string.</p></div>
+  <div class="cards" id="features"></div>
+</div></section>
+
+<section class="banner" id="banner"><div class="wrap banner-grid">
+  <div class="reveal"><h2 id="bannerH"></h2><p id="bannerP"></p><button class="btn" id="bannerBtn"></button></div>
+  <figure class="polaroid reveal"><img src="images/mantel-glow.webp" alt="Row of five hanging wizard hat ghosts lit with colorful LEDs above a fireplace" width="800" height="800" loading="lazy"><figcaption>Lights out. Ghosts on.</figcaption></figure>
+</div></section>
+
+<section class="block" id="how"><div class="wrap">
+  <div class="sec-head reveal"><span class="tag o">How it works</span><h2>Hang. Power up. <mark>Haunt.</mark></h2></div>
+  <div class="steps" id="steps"></div>
+</div></section>
+
+<section class="block action-sec" id="action"><div class="wrap">
+  <div class="sec-head reveal"><span class="tag">See it in action</span><h2>Hang them anywhere it's <mark>dark</mark></h2></div>
+  <div class="action" id="inAction"></div>
+</div></section>
+
+<section class="block" id="details"><div class="wrap">
+  <div class="sec-head reveal"><span class="tag p">Product details</span><h2>The <mark>spec sheet</mark></h2></div>
+  <div class="two">
+    <dl class="specs reveal" id="specs"></dl>
+    <aside class="incl reveal" id="included"></aside>
+  </div>
+</div></section>
+
+<section class="block" id="faq" style="padding-top:0"><div class="wrap faq-wrap">
+  <div class="sec-head reveal"><span class="tag">Questions</span><h2>Shipping, returns <mark>&amp; more</mark></h2></div>
+  <div id="faqList"></div>
+</div></section>
+
+<section class="final"><div class="wrap reveal">
+  <span class="tag w">Ready to haunt?</span>
+  <h2>Get the <span>glow.</span></h2>
+  <p id="finalP"></p>
+  <button class="btn" id="finalBtn"></button>
+</div></section>
+</main>
+
+<footer class="site"><div class="wrap">
+  <div class="foot">
+    <div><h4 id="fBrand"></h4><p id="fTag"></p></div>
+    <div><h4>Help</h4><p id="fHelp"></p></div>
+    <div><h4>Secure payments</h4><p>Checkout is processed by Stripe. We never see or store your card details.</p></div>
+  </div>
+  <p class="copy" id="fCopy"></p>
+</div></footer>
+
+<div class="sticky" id="sticky"><div><div class="p" id="stickyPrice"></div><small id="stickySmall"></small></div><button class="btn btn-primary" id="stickyAdd">Add to cart</button></div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Shopping cart" aria-hidden="true">
+  <header><h2>Your cart</h2><button class="x" id="closeCart" aria-label="Close cart">✕</button></header>
+  <div class="d-body" id="dBody"></div>
+  <div class="d-foot" id="dFoot"></div>
+</aside>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="x" id="lbClose" aria-label="Close">✕</button>
+  <button class="arrow prev" id="lbPrev" aria-label="Previous">‹</button>
+  <img id="lbImg" alt="">
+  <button class="arrow next" id="lbNext" aria-label="Next">›</button>
+  <span class="count" id="lbCount"></span>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<noscript><p style="padding:20px;text-align:center">Please enable JavaScript to shop.</p></noscript>
+<script src="js/product.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
